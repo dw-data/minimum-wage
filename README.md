@@ -1,15 +1,19 @@
 # Minimum wages throughout Europe
 ## How well do minimum wages keep workers out of poverty?
 *Idea and initial research:* [Olaya Argüeso](https://twitter.com/oargueso)
-*Research, data analysis, visualization and writing:* [Kira Schacht](https://twitter.com/daten_drang)
+*Research, data analysis, visualization and writing:*
+
+[Kira Schacht](https://twitter.com/daten_drang)
 
 Germany is raising its minimum wage again: From January 2019, employers have to pay their employees at least €9.19 per hour. In a comparison of gross minimum wages, that puts Germany among the top countries in Europe. But is it really?
-This explores what life on minimum wage means beyond the gross numbers. One way of doing this is examining how well minimum wage policies do in keeping people out of poverty. The basic assumption of the story is: If a single person works full time on minimum wage, they should, at the very least, be above the poverty threshold.
-So DW calculated the disposable income that a single full-time minimum wage worker can rely on each month for 22 EU countries and compared it with
+
+This story explores what life on minimum wage means beyond the gross numbers. One way of doing this is examining how well minimum wage policies do in keeping people out of poverty. The basic assumption of the story is: If a single person works full time on minimum wage, they should, at the very least, be above the poverty threshold.
+
+So, DW calculated the disposable income that a single full-time minimum wage worker can rely on each month for 22 EU countries and compared it with
 -   The median disposable income in each country
 -   The poverty threshold in each country
 
-The following will explain the process behind this story: Which data sources were used, how the analysis was conducted and how the data was visualized.
+The following text will explain the process behind this story: Which data sources were used, how the analysis was conducted and how the data was visualized.
 
 Source data
 ===========
@@ -71,13 +75,16 @@ The source for the minimum wages was the dataset “Real minimum wages” from t
 2.  the latest available data on poverty thresholds and median income was from 2017 as well.
 
 For Bulgaria, Croatia, Malta and Romania, OECD did not provide minimum wage data. For these 4 countries, minimum wages from the Eurostat dataset for the second half of 2017 (2017S2) were used and multiplied by 12 to get annual figures. Guidelines for converting monthly figures to annual ones are taken from the “Data Sources” section of the Eurostat article “[Minimum wage statistics](https://ec.europa.eu/eurostat/statistics-explained/index.php/Minimum_wage_statistics)”.
+
 The minimum wages are given in US Dollar in the OECD dataset, so they were converted to Euros using the OECD-provided yearly average exchange rate of 0.887 Dollars to 1 Euro.
 
 Estimating the disposable net income at minimum wage
 ----------------------------------------------------
 
 Poverty thresholds and similar EU statistics on poverty and inequality are all based on the so-called [equivalised disposable income](https://ec.europa.eu/eurostat/statistics-explained/index.php/Glossary:Equivalised_disposable_income). In simple terms, this is the gross income of an adult, including any benefits they receive, minus their taxes and social contributions.
+
 But the minimum wages in the EU are all given as gross wages. So, the first task was estimating the monthly net income that minimum wage workers can rely on, in order to then compare these values with the poverty thresholds of each country.
+
 The OECD publishes data from their so-called “Tax-Benefit-Models”. Based on a few parameters – household type, marriage status, number of children and employment status, this model provides net earnings based on gross wages in each OECD country.
 They calculate net earnings as follows:
 ```
@@ -94,6 +101,7 @@ This story explores the case of a person working **full-time** on minimum wage w
 
 This constitutes one of the more favorable situations a minimum wage worker can be in. In fact, many of them do not work full time, and some have children or other household members to support. The article specifically analyzes this most conservative case – after all, if even people in this situation are at risk of poverty, many people will be even worse off.
 The OECD provides income composition data for a range of different gross wage levels. They are given in percent of the average worker, in 1-percent-intervals (see linked dataset above).
+
 For example, the data would show that a person making 47% of the average worker in France would have €17,883.00 a year in gross income and end up with €15,731.00 as their yearly net earning, after deductions and benefits.
 Relevant data was extracted as follows:
 
@@ -111,12 +119,14 @@ Poverty thresholds and median net incomes
 After calculating the estimated net full-time minimum wage income for a single person, it was possible to determine how it relates to the median income of each country and the poverty thresholds.
 The median income of a country is the middle income, meaning half of the country’s population earn more and half earn less than that value.
 The median income also determines the poverty threshold in each country. The threshold most often used is defined as 60 percent of the median income, which is what was used in this analysis as well.
+
 Eurostat provides figures on median income and poverty thresholds for a single person as a yearly equivalised disposable income (see above). Since this is comparable to the minimum wage income calculated in the step before, those figures could be used as they were.
 
 Distance from poverty and median
 --------------------------------
 
 As a final step, the distance between the minimum wage income and the poverty threshold was calculated. Apart from the absolute difference in Euros, the relative difference in percent was calculated as well: (minimum wage / poverty threshold) – 1.
+
 Additionally, the relative difference of the minimum wage income from the poverty threshold if the benefits were removed was analyzed, to see how the bare minimum wage, without additional support payments, relates to the poverty threshold.
 
 Final Dataset Overview
