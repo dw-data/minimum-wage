@@ -1,10 +1,15 @@
 # Minimum wages throughout Europe
 ## How well do minimum wages keep workers out of poverty?
+*Idea and initial research:* [Olaya Argüeso](https://twitter.com/oargueso)
+*Research, data analysis, visualization and writing:* [Kira Schacht](https://twitter.com/daten_drang)
+
 Germany is raising its minimum wage again: From January 2019, employers have to pay their employees at least €9.19 per hour. In a comparison of gross minimum wages, that puts Germany among the top countries in Europe. But is it really?
-This story wants to explore what a life on minimum wage looks like beyond the gross numbers. One way of doing this is examining how well minimum wage policies do in keeping people out of poverty. The basic assumption of the story is: If a single person works full time on minimum wage, they should, at the very least, be above the poverty threshold.
+This explores what life on minimum wage means beyond the gross numbers. One way of doing this is examining how well minimum wage policies do in keeping people out of poverty. The basic assumption of the story is: If a single person works full time on minimum wage, they should, at the very least, be above the poverty threshold.
 So DW calculated the disposable income that a single full-time minimum wage worker can rely on each month for 22 EU countries and compared it with
 -   The median disposable income in each country
 -   The poverty threshold in each country
+
+The following will explain the process behind this story: Which data sources were used, how the analysis was conducted and how the data was visualized.
 
 Source data
 ===========
