@@ -1,9 +1,8 @@
 # Minimum wages throughout Europe
 ## How well do minimum wages keep workers out of poverty?
 *Idea and initial research:* [Olaya Argüeso](https://twitter.com/oargueso)
-*Research, data analysis, visualization and writing:*
 
-[Kira Schacht](https://twitter.com/daten_drang)
+*Research, data analysis, visualization and writing:* [Kira Schacht](https://twitter.com/daten_drang)
 
 Germany is raising its minimum wage again: From January 2019, employers have to pay their employees at least €9.19 per hour. In a comparison of gross minimum wages, that puts Germany among the top countries in Europe. But is it really?
 
