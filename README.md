@@ -4,6 +4,8 @@
 
 *Research, data analysis, visualization and writing:* [Kira Schacht](https://twitter.com/daten_drang)
 
+*Scientific advice:* [Barbara Binder](https://www.soziologie.kit.edu/MitarbeiterInnen_Binder.php)
+
 Germany is raising its minimum wage again: From January 2019, employers have to pay their employees at least €9.19 per hour. In a comparison of gross minimum wages, that puts Germany among the top countries in Europe. But is it really?
 
 This story explores what life on minimum wage means beyond the gross numbers. One way of doing this is examining how well minimum wage policies do in keeping people out of poverty. The basic assumption of the story is: If a single person works full time on minimum wage, they should, at the very least, be above the poverty threshold.
